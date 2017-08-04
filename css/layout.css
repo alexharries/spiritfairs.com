@@ -1,150 +1,165 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-h2, h3{
-    margin:0;
-    font-weight: 300;
+h2, h3 {
+  margin: 0;
+  font-weight: 300;
 }
-h1{
-    font-weight:300;
+
+h1 {
+  font-weight: 300;
 }
+
 a {
-    text-decoration: none;
-}
-div.content{
-    max-width:1000px;
-    margin: -8px auto;
+  text-decoration: none;
 }
 
-div.content div.header{
-    text-align: center;
-    height:148px;
+div.content {
+  max-width: 1000px;
+  margin: -8px auto;
+}
+
+div.content div.header {
+  text-align: center;
+  height: 148px;
 }
 
 div.content div.header h3.title.little {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 div.content .content-block {
-    max-width: 228px;
-    width:25%;
-    float: left;
-    margin:0 10px 10px 0;
-    padding-top:10px;
-    height: 310px;
-    position:relative;
+  max-width: 228px;
+  width: 25%;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding-top: 10px;
+  height: 310px;
+  position: relative;
 }
 
-div.content .content-block .block-image{
-    text-align:center;
+div.content .content-block .block-image {
+  text-align: center;
 }
 
-div.content .content-block .block-image img{
-    max-width:200px;
-    width:100%;
+div.content .content-block .block-image img {
+  max-width: 200px;
+  width: 100%;
 }
 
-div.content .content-block .block-descr{
-    font-size:9pt;
-    padding:15px;
-    max-width:144px;
+div.content .content-block .block-descr {
+  font-size: 9pt;
+  padding: 15px;
+  max-width: 144px;
 }
 
 div.content .content-block .enter {
-    position: absolute;
-    right: 0;
-    bottom: -5px;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
 }
 
-div.content .main-content{
-    max-width: 952px;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 30px;
+div.content .main-content {
+  max-width: 952px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 30px;
 }
 
-div.footer{
-    height:148px;
-    width:100%;
-    margin-top: 30px;
+div.footer {
+  min-height: 148px;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 15px;
 }
 
 div.footer h2,
-div.footer h3{
-    text-align:center;
+div.footer h3 {
+  text-align: center;
 }
-
 
 div.footer .footer-container {
-    max-width: 380px;
-    margin: 15px auto;
+  max-width: 380px;
+  margin: 15px auto;
 }
 
-div.footer .footer-container .clarion-logo{
-    width:58px;
-    height:36px;
-    float: right;
+div.footer .footer-container .clarion-logo {
+  width: 58px;
+  height: 36px;
+  float: right;
 }
 
 div.footer .footer-container .social-container {
-    float:left;
-    width:290px;
-    padding-right:15px;
-}
-div.footer .social{
-    float:right;
-    padding: 5px;
+  float: left;
+  width: 290px;
+  padding-right: 15px;
 }
 
-div.footer .social .twitter{
-    margin: -2px 2px 0 5px;
+div.footer .social {
+  float: right;
+  padding: 5px;
 }
+
+div.footer .social .twitter {
+  margin: -2px 2px 0 5px;
+}
+
 div.footer .social a,
-div.footer .social span{
-    float:left;
+div.footer .social span {
+  float: left;
 }
 
-div.footer .social div{
-    
-    width:16px;
-    height:16px;
+div.footer .social div {
+
+  width: 16px;
+  height: 16px;
 }
 
-@media (max-width:992px){
-    
-    div.content .main-content {
-        margin-left:30px;
-    }
-    div.content .content-block {
-        width:23%;
-    }
+@media (max-width: 992px) {
+
+  div.content .main-content {
+    margin-left: 30px;
+  }
+
+  div.content .content-block {
+    width: 23%;
+  }
 }
 
-@media (max-width:600px){
-    div.content .content-block {
-        width:100%;
-        float:none;
-        margin: 10px auto;
-    }
-    
-    div.content .main-content{
-        margin-left:0;
-    }
-    
-    div.footer{
-        height:auto;
-        
-    }
-    
-    div.footer .footer-container{
-        overflow:hidden;
-        margin:0;
-    }
-    
-    div.footer .footer-container .social-container{
-        margin-top:15px;
-    }
-    
-    div.footer .footer-container .clarion-logo{
-        float:none;
-        margin: 100px auto 10px auto;
-    }
+@media (max-width: 600px) {
+  div.content .content-block {
+    width: 100%;
+    float: none;
+    margin: 10px auto;
+  }
+
+  div.content .main-content {
+    margin-left: 0;
+  }
+
+  div.footer {
+    height: auto;
+
+  }
+
+  div.footer .footer-container {
+    overflow: hidden;
+    margin: 0;
+  }
+
+  div.footer .footer-container .social-container {
+    margin-top: 15px;
+  }
+
+  div.footer .footer-container .clarion-logo {
+    float: none;
+    margin: 100px auto 10px auto;
+  }
+}
+
+div.content div.header h1.title.big {
+  padding-top: 2em;
 }

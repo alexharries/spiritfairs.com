@@ -1,98 +1,98 @@
-
 @font-face {
   font-family: 'spirit-font';
   src: url('../assets/fonts/Neutraface2Display-Medium.eot');
   src: url('../assets/fonts/Neutraface2Display-Medium.eot?#iefix') format('embedded-opentype'),
-       url('../assets/fonts/Neutraface2Display-Medium.woff') format('woff'),
-       url('../assets/fonts/Neutraface2Display-Medium.ttf') format('truetype'),
-       url('../abrilfatface-regular-webfont.svg#neutraface') format('svg');
+  url('../assets/fonts/Neutraface2Display-Medium.woff') format('woff'),
+  url('../assets/fonts/Neutraface2Display-Medium.ttf') format('truetype'),
+  url('../abrilfatface-regular-webfont.svg#neutraface') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-body{
-    text-transform:uppercase;
-    font-family: "proxima-nova",sans-serif,Arial;
-    background:#e8e9e8;
+body {
+  text-transform: uppercase;
+  font-family: "proxima-nova", sans-serif, Arial;
+  background: #e8e9e8;
 }
-
 
 a {
-    color:#5e6263
+  color: #5e6263
 }
 
-div.content{
-    background:#FFF;
+div.content {
+  background: #FFF;
 }
 
-div.content div.header{
-    background:url(../assets/images/header_back.png) 0 0 no-repeat;
+div.content div.header {
+  background: url(../assets/images/header_back.png) 0 0 no-repeat;
 }
 
-.little{
-    font-size:15pt;
-    margin:0
-    }
-    
-.big{
-    font-size:28pt;
-    margin:0
-    }
-    
+.little {
+  font-size: 15pt;
+  margin: 0
+}
+
+.big {
+  font-size: 28pt;
+  margin: 0
+}
+
 div.content div.header h3.title.little,
-div.footer h3{
+div.footer h3 {
 
-    color:#7d7c78;
+  color: #7d7c78;
 }
 
-div.content div.header h1.title.big,
-div.footer h2{
-    
-    color:#96aed9;
-}
-
-
-div.content .content-block {
-    background:#e8e9e8;
-}
-
-div.footer{
-    background:url(../assets/images/footer_bg.png) no-repeat;
+div.content div.header h1.title.big {
+  color: #000;
 }
 
 div.footer h2 {
-font-size: 16pt;
+  color: #96aed9;
 }
+
+div.content .content-block {
+  background: #e8e9e8;
+}
+
+div.footer {
+  /*background: url(../assets/images/footer_bg.png) no-repeat;*/
+}
+
+div.footer h2 {
+  font-size: 16pt;
+}
+
 div.footer h3 {
-font-size: 12pt;
+  font-size: 12pt;
 }
 
-div.footer span{
-    font-size:10pt;
+div.footer span {
+  font-size: 10pt;
 }
 
-div.footer .social .facebook{
-    background:url(../assets/images/social_asset.png) 0 0;
+div.footer .social .facebook {
+  background: url(../assets/images/social_asset.png) 0 0;
 }
 
-div.footer .social .twitter{
-    background:url(../assets/images/social_asset.png) 0 -15px;
+div.footer .social .twitter {
+  background: url(../assets/images/social_asset.png) 0 -15px;
 }
 
-div.footer .footer-container .clarion-logo{
-    background:url(../assets/images/Clarion_Events_Logo.png);
+div.footer .footer-container .clarion-logo {
+  background: url(../assets/images/Clarion_Events_Logo.png);
 }
 
-div.footer .footer-container .social-container{
-    border-right: 2pt #7f9ed0 solid;
+div.footer .footer-container .social-container {
+  border-right: 2pt #7f9ed0 solid;
 }
 
-@media (max-width:600px){
-    div.footer{
-        background:none;
-    }
-    
-    div.footer .footer-container .social-container{
-        border-right:none;
-    }
+@media (max-width: 600px) {
+  div.footer {
+    background: none;
+  }
+
+  div.footer .footer-container .social-container {
+    border-right: none;
+  }
 }
